@@ -51,8 +51,6 @@ TARGET_KERNEL_CONFIG := msm8916-squid_defconfig
 # The default GCC throws false positive warnings on my Prima drivers, preventing compilation
 KERNEL_TOOLCHAIN_PREFIX := arm-linux-gnueabihf-
 
-BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
-
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := osprey
 
